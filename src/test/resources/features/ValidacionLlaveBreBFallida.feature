@@ -8,11 +8,11 @@ Feature: Validar diferentes tipos de llave BreB
 
   Scenario Outline: Validar tipo de llave <Descripcion>
     When ingrese a la opcion de BreB y el usuario ingresa la llave BreB "<Llave>"
-    Then le da click en el boton continuar y vera que la consulta de la llave BreB exitosa
+    Then le da click en el boton continuar y vera que la consulta de la llave BreB fallida
 
     Examples:
       | Descripcion  | Llave                  |
 #      | Alfanumerico | @BBAAA813            |
-      | Numérico     | 3102111111             |
+      | Numérico     | 121212             |
 #      | Celular      | 3102111111           |
 #      | Correo       | pruebasbb1@gmail.com |
