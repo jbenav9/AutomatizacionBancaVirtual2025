@@ -37,7 +37,10 @@ public class ValidarLlaveExitosaBreB implements Task {
                 WaitUntil.the(TXT_LLAVE_BREB, isVisible()).forNoMoreThan(5).seconds(),
                 Enter.theValue(llaveBreB).into(TXT_LLAVE_BREB),
                 Click.on(BTN_CONSULTAR_LLAVE_BREB),
-                WaitUntil.the(MSJ_LLAVE_EXITOSA, isVisible()).forNoMoreThan(5).seconds()
+                WaitUntil.the(MSJ_LLAVE_EXITOSA, isVisible()).forNoMoreThan(5).seconds(),
+                Enter.theValue("12121").into(TXT_VALOR_BREB),
+                Click.on(SELECCIONAR_CUENTA)
+
 
 
 

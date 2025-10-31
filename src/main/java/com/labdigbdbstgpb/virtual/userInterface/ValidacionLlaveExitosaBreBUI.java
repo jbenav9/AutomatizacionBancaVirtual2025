@@ -15,5 +15,9 @@ public class ValidacionLlaveExitosaBreBUI {
     public static final Target TXT_LLAVE_BREB = Target.the("Ingresar llave Breb").located(ByShadow.cssSelector("#sp-at-input","#root > div > div.shell-container__transfers-spi-mfe-web-ui > main > span > span > section > form > tran-spi-sp-at-input"));
     public static final Target BTN_CONSULTAR_LLAVE_BREB = Target.the("Bonton consultar llave BreB").locatedBy("//*[@id=\"root\"]/div/div[4]/main/span/span/section/form/button");
     public static final Target MSJ_LLAVE_EXITOSA = Target.the("Llave exitosa").located(ByShadow.cssSelector("#content > label.sp-ml-content-title__content__title","#root > div > div.shell-container__transfers-spi-mfe-web-ui > main > span > span > section > form > tran-spi-sp-ml-content-title"));
+    public static final Target TXT_VALOR_BREB = Target.the("Ingresar el valor a enviar").located(ByShadow.cssSelector("#sp-at-input","#root > div > div.shell-container__transfers-spi-mfe-web-ui > main > span > span > section > form > tran-spi-sp-at-input"));
+    public static final Target SELECCIONAR_CUENTA = Target.the("Seleccionar cuenta").located(ByShadow.cssSelector("#dropdown_1_arrow","#root > div > div.shell-container__transfers-spi-mfe-web-ui > main > span > span > section > form > main > section > tran-spi-sp-at-dropdown"));
+    public static final Target CTA_AHORROS = Target.the("Cuenta de Ahorros").located(ByShadow.cssSelector("#option-0006605455","#root > div > div.shell-container__transfers-spi-mfe-web-ui > main > span > span > section > form > main > section > tran-spi-sp-at-dropdown"));
+    public static final Target CTA_CORRIENTE = Target.the("Cuenta de Corriente").located(ByShadow.cssSelector("#option-0006605851","#root > div > div.shell-container__transfers-spi-mfe-web-ui > main > span > span > section > form > main > section > tran-spi-sp-at-dropdown"));
 
 }
